@@ -53,6 +53,17 @@ public class Lancamento implements Serializable {
 		this.contaId = contaId;
 	}
 
+	public Lancamento(Date data, String tipo, String operacao, String descricao, Double valor, boolean status, Long contaId) {
+		this.id = id;
+		this.data = data;
+		this.tipo = tipo;
+		this.operacao = operacao;
+		this.descricao = descricao;
+		this.valor = valor;
+		this.status = status;
+		this.contaId = contaId;
+	}
+
 	public Long getId() {
 		return id;
 	}
